@@ -22,8 +22,8 @@
                            g
 	
 	# Ipad storyboard preview
-	![alt tag](https://raw.githubusercontent.com/ColworxDev/BezierMessageBox/blob/master/simulatorscreenshot.png?raw=true "Ipad storyboard preview")
+	![alt tag](https://github.com/ColworxDev/BezierMessageBox/blob/master/simulatorscreenshot.png?raw=true "Ipad storyboard preview")
 
 
 	# Ipad storyboard simulator preview
-	![alt tag](https://raw.githubusercontent.com/ColworxDev/BezierMessageBox/blob/master/storyboardscreenshot.png?raw=true "simulator preview")
+	![alt tag](https://github.com/ColworxDev/BezierMessageBox/blob/master/storyboardscreenshot.png?raw=true "simulator preview")
