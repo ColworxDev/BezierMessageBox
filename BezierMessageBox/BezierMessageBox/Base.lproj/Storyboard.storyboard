@@ -22,7 +22,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="1Kk-FH-8UZ">
-                                <rect key="frame" x="61" y="110" width="269" height="116"/>
+                                <rect key="frame" x="54.5" y="129.5" width="269" height="116"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="0eB-wK-fTG" customClass="CustomMessageBox">
                                         <rect key="frame" x="0.0" y="0.0" width="269" height="116"/>
@@ -76,7 +76,7 @@
                                 </constraints>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="6fj-u3-51p">
-                                <rect key="frame" x="350" y="110" width="269" height="187.5"/>
+                                <rect key="frame" x="343.5" y="94" width="269" height="187.5"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="tEW-yK-sSL" customClass="CustomMessageBox">
                                         <rect key="frame" x="0.0" y="0.0" width="269" height="187.5"/>
@@ -130,13 +130,24 @@
                                     <constraint firstItem="jCc-NQ-n0G" firstAttribute="top" secondItem="6fj-u3-51p" secondAttribute="top" constant="19" id="yRi-bz-q0m"/>
                                 </constraints>
                             </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="lPf-DP-btk" userLabel="ViewCenter">
+                                <rect key="frame" x="333.5" y="187.5" width="0.0" height="0.0"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" id="CDE-SL-kOT"/>
+                                    <constraint firstAttribute="width" id="KYB-BJ-60x"/>
+                                </constraints>
+                            </view>
                         </subviews>
                         <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="1Kk-FH-8UZ" firstAttribute="top" secondItem="3uF-8b-9dp" secondAttribute="bottom" constant="90" id="Hos-rd-UnU"/>
-                            <constraint firstItem="1Kk-FH-8UZ" firstAttribute="leading" secondItem="PXX-bh-4Pg" secondAttribute="leading" constant="61" id="O2q-pI-IBk"/>
-                            <constraint firstItem="6fj-u3-51p" firstAttribute="leading" secondItem="1Kk-FH-8UZ" secondAttribute="trailing" constant="20" id="dG3-tj-Hrd"/>
-                            <constraint firstItem="6fj-u3-51p" firstAttribute="top" secondItem="3uF-8b-9dp" secondAttribute="bottom" constant="90" id="uBl-ua-A2t"/>
+                            <constraint firstItem="1Kk-FH-8UZ" firstAttribute="centerY" secondItem="PXX-bh-4Pg" secondAttribute="centerY" id="V5M-k6-QHD"/>
+                            <constraint firstItem="6fj-u3-51p" firstAttribute="centerY" secondItem="PXX-bh-4Pg" secondAttribute="centerY" id="VPt-nU-xAy"/>
+                            <constraint firstItem="lPf-DP-btk" firstAttribute="centerX" secondItem="PXX-bh-4Pg" secondAttribute="centerX" id="b6L-Am-Omx"/>
+                            <constraint firstItem="lPf-DP-btk" firstAttribute="centerY" secondItem="PXX-bh-4Pg" secondAttribute="centerY" id="e8k-l9-vOv"/>
+                            <constraint firstItem="6fj-u3-51p" firstAttribute="leading" secondItem="lPf-DP-btk" secondAttribute="trailing" constant="10" id="kLW-WP-fEv"/>
+                            <constraint firstItem="lPf-DP-btk" firstAttribute="centerY" secondItem="PXX-bh-4Pg" secondAttribute="centerY" id="w8z-ES-TpZ"/>
+                            <constraint firstItem="lPf-DP-btk" firstAttribute="leading" secondItem="1Kk-FH-8UZ" secondAttribute="trailing" constant="10" id="yHR-ps-xBf"/>
                         </constraints>
                     </view>
                 </viewController>
