@@ -20,3 +20,10 @@
                          \ |
                           \|
                            g
+	
+	# Ipad storyboard preview
+	![alt tag](https://raw.githubusercontent.com/ColworxDev/BezierMessageBox/blob/master/simulatorscreenshot.png)
+
+
+	# Ipad storyboard simulator preview
+	![alt tag](https://raw.githubusercontent.com/ColworxDev/BezierMessageBox/blob/master/storyboardscreenshot.png)
